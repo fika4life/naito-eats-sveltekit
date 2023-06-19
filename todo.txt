@@ -1,0 +1,31 @@
+Requirements
+
+
+as a logged in user i want to be able to:
+-------stage 1 --------
+-see list of all recipes
+-register
+-login
+-logout
+-add recipes
+-edit recipes
+-delete recipes
+
+-------stage 2--------
+.-feed of all users of what they have cooked in the last 7 days + favorited + plan to cook
+- favorite recipes and access them somewhere
+- mark a recipe as cooked in the last 7 days
+- mark recipe as plan to cook (?)
+
+
+
+-------stage 3--------
+-add a url to autofill the recipe form
+-see comments on a recipe
+- comment on a recipe
+- comment on the feed 
+
+
+
+patriks part
+-fill database by scraping recipetin eats
