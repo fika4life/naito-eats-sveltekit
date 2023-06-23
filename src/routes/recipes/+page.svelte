@@ -1,8 +1,16 @@
 <script>
-  let recipe = {title:'test recipe'}
+  export let data;
+
+  // let { countries } = data;
+  //   $: ({ countries } = data);
+  const {products} = data.data
+
+
+ 
   import RecipeCard from "$lib/components/RecipeCard.svelte";
 </script>
 
-<RecipeCard recipe={recipe}></RecipeCard>
-<RecipeCard recipe={recipe}></RecipeCard>
-<RecipeCard recipe={recipe}></RecipeCard>
+
+{#each products as product}
+  <RecipeCard recipe={product}></RecipeCard>
+{/each}

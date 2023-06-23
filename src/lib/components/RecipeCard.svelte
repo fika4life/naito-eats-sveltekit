@@ -7,7 +7,7 @@
     <figure><img src="https://source.unsplash.com/random/300x200?food" alt="Shoes" /></figure>
     <div class="card-body">
       <h2 class="card-title">{recipe.title}</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <p>{recipe.description}</p>
       <div class="card-actions justify-end">
         <button class="btn btn-primary">Buy Now</button>
       </div>
