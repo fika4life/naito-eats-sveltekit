@@ -9,7 +9,7 @@
       <h2 class="card-title">{recipe.title}</h2>
       <p>{recipe.description}</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary"><a href="/recipes/{recipe.id}">Get the recipe</a></button>
       </div>
     </div>
   </div>
