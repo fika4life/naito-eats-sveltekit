@@ -1,5 +1,6 @@
-Requirements
-
+To do next
+-create recipe details page
+-add routing and db call to load details page.
 
 as a logged in user i want to be able to:
 -------stage 1 --------
